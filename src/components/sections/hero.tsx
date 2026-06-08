@@ -23,7 +23,7 @@ export function Hero() {
   return (
     <section 
       ref={containerRef} 
-      className="relative flex min-h-[85vh] flex-col items-center justify-start pt-4 overflow-hidden px-4 text-center"
+      className="relative flex min-h-[85vh] flex-col items-center justify-start pt-18 overflow-hidden px-4 text-center"
     >
       {/* --- Dynamic Background Layer --- */}
       <motion.div 
