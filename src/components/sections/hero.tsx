@@ -64,7 +64,7 @@ export function Hero() {
         </h1>
         
         <p className="mx-auto max-w-2xl text-lg text-muted-foreground md:text-xl font-medium drop-shadow-md">
-          Fast, robust, and secure roadside assistance across Kenya. 
+          Fast and secure roadside assistance across Kenya. 
           Pin your location and our closest unit will be dispatched instantly.
         </p>
 
