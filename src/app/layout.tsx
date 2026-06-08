@@ -4,6 +4,7 @@ import { RootProvider } from "@/providers/root-provider";
 import { Header } from "@/components/layout/header";
 import { MobileNav } from "@/components/layout/mobile-nav";
 import { DesktopSOS } from "@/components/layout/desktop-sos";
+import { Footer } from "@/components/layout/footer";
 import "@/app/globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -29,6 +30,8 @@ export default function RootLayout({
           <main className="pt-16 pb-20 md:pb-0 min-h-screen">
             {children}
           </main>
+
+          <Footer />
 
           <MobileNav />
           <DesktopSOS />
