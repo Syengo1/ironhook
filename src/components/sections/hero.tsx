@@ -34,7 +34,7 @@ export function Hero() {
           src="/images/hero-tow.jpg" 
           alt="Ironhook Towing Unit"
           fill
-          className="object-cover opacity-70" // Lower opacity so the neon text pops
+          className="object-cover opacity-40" // Lower opacity so the neon text pops
           priority
         />
         
